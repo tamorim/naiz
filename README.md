@@ -10,7 +10,7 @@ Minimalist zsh theme based on [nai](https://github.com/oh-my-fish/theme-nai) and
 
 Add the following to your **~/.zshrc** file:
 ```bash
-antigen theme tamorim/naiz
+antigen theme tamorim/naiz naiz
 ```
 
 ### Using oh-my-zsh
