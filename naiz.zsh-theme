@@ -2,7 +2,7 @@ autoload -Uz vcs_info
 autoload -U colors && colors
 setopt promptsubst
 
-zstyle ':vcs_info:*' formats '%b'
+zstyle ':vcs_info:git*' formats '%b (%a)'
 
 precmd () {
   vcs_info
